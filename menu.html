@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- ### HTML HEAD ### -->
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+        <!-- local CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <!-- Google fonts -->
+        <!-- 'Asap' (subheadings) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wdth,wght@0,75..125,100..900;1,75..125,100..900&display=swap" rel="stylesheet">
+
+        <!-- TAB TITLE -->
+        <title>Menu - Haukai Restaurant</title>
+
+    </head>
+
+
+    <!-- ### WEBPAGE BODY ### -->
+    <body onscroll="scrollFunction()">
+
+        <!-- SITE HEADER/BANNER -->
+        <header>
+
+            <!-- # Navigation Menu # -->            
+            <nav class="navbar navbar-expand-md p-0 fixed-top">
+                
+              <!-- menu heading to show for collapsed style menu -->
+                <div class="navbar-toggler navMenu" data-toggle="collapse" data-target=".collapsibleNavbar">
+                    <a class="navMenu navHeader" href="#">&nbsp;<span class="hamburger-icon">&#9776;</span>&nbsp;&nbsp;&nbsp;Menu</a>
+                </div>
+
+                <!-- Close button to toggle the menu -->
+                <button type="button" class="navbar-toggler collapse closeButton collapsibleNavbar" data-toggle="collapse" data-target=".collapsibleNavbar" aria-label="Close">X</button>
+
+                <!-- bootstrap collapsable menu portion -->
+                <div class="collapse navbar-collapse collapsibleNavbar">
+                    
+                  <!-- menu items list -->
+                    <ul class="list-group navbar-nav">
+                        <li class="list-group-item nav-item">
+                            <a class="navMenu" href="index.html">Home</a>
+                        </li>
+                        <li class="list-group-item nav-item">
+                            <a class="navMenu" href="#">Menu</a>
+                        </li>
+                        <li class="list-group-item nav-item">
+                            <a class="navMenu" href="reservations.html">Reservations</a>
+                        </li>
+                        <li class="list-group-item nav-item">
+                            <a class="navMenu" href="hours.html">Hours</a>
+                        </li>
+                        <li class="list-group-item nav-item">
+                            <a class="navMenu" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- separate link to staff pages -->
+                    <a class="staffLink ml-auto nav-item" href="staff.html">Staff login</a>
+                </div>
+            </nav>
+
+            <!-- # Banner/logo # -->
+            <div class="banner pl-3 pr-3 pb-4">
+
+                <!-- bootstrap flex container -->
+                <div class="d-flex">
+                    <!-- restaurant name and logo -->
+                    <div class="logo">
+                        <h2 id="logo1">THE<br>HAUKAI</h2>
+                        <h2 id="logo2">RESTAURANT</h2>
+                    </div>
+                    <!-- address for right-hand side of header -->
+                    <p class="headerAddress">1 Island Street,<br>Kerikeri,<br>Bay of Islands<br>09 401 4019</p>
+                </div>
+
+                <!-- underline image for logo header -->
+                <img class="bannerLine" src="images/bannerLine.png">
+            </div>
+
+        </header>
+        
+        <main>
+            <h1>Menu - Rārangi Kai</h1>
+
+            <h2>APPETISERS</h2>
+            
+            <div class="container-fluid d-flex flex-wrap justify-content-around">
+                
+                <!-- Bootstrap card 1 -->
+                <div class="card mb-3">
+                    <img src="images/Menu01_Rewena_L.jpg" class="card-img-top" alt="Glazed salmon on a dark plate">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">REWENA BREAD <span class="price">$10</span></h5>
+                        <p class="card-text">Traditional Māori bread.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 2 -->
+                <div class="card mb-3">
+                    <img src="images/Menu02_Paua_L.jpg" class="card-img-top" alt="Glazed salmon on a dark plate">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">PAUA FRITTER <span class="price">$16</span></h5>
+                        <p class="card-text">Finely diced pieces of paua, served with a side salad and horopito dressing.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 3 -->
+                <div class="card mb-3">
+                    <img src="images/Menu03_RawFish_L.jpg" class="card-img-top" alt="Diced fish and tomato salad, marinated in a creamy dressing">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">RAW FISH <span class="price">$20</span></h5>
+                        <p class="card-text">Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 4 -->
+                <div class="card mb-3">
+                    <img src="images/Menu04_Salmon_L.jpg" class="card-img-top" alt="Glazed salmon on a dark plate">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">POACHED SALMON <span class="price">$22</span></h5>
+                        <p class="card-text">Salmon poached in an orange and pistachio glaze, served with rewena bread.</p>
+                    </div>
+                </div>
+                
+                <!-- Bootstrap card 5 -->
+                <div class="card mb-3">
+                    <img src="images/Menu05_Seafood_L.jpg" class="card-img-top" alt="A variety mix of crispy fried seafood">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">SEAFOOD BASKET <span class="price">$25</span></h5>
+                        <p class="card-text">Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <h2>MAIN</h2>
+
+            <div class="container-fluid d-flex flex-wrap justify-content-around">
+
+                <!-- Bootstrap card 6 -->
+                <div class="card mb-3">
+                    <img src="images/Menu06_Fish_L.jpg" class="card-img-top" alt="Crispy batter coated fish with fries and side dressing">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">FISH OF THE DAY <span class="price">$25</span></h5>
+                        <p class="card-text">Beer-battered fish and kumara fries, served with a side salad and homemade tartare.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 7
+                  -->
+                <div class="card mb-3">
+                    <img src="images/Menu07_Mussels_L.jpg" class="card-img-top" alt="Steamed shellfish in a rich golden broth">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">MUSSELS AND SCALLOPS <span class="price">$25</span></h5>
+                        <p class="card-text">Steamed mussel & scallop mousse, honey and soy broth.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 8 -->
+                <div class="card mb-3">
+                    <img src="images/Menu08_Chowder_L.jpg" class="card-img-top" alt="A bowl of creamy seafood soup">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">SEAFOOD CHOWDER <span class="price">$30</span></h5>
+                        <p class="card-text">Creamy chowder filled with tarakihi, prawn, hoki, scallops and mussels, served with flatbread.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 9 -->
+                <div class="card mb-3">
+                    <img src="images/Menu09_Pork_L.jpg" class="card-img-top" alt="Sliced pork belly on a bed of vegetables">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">PORK BELLY <span class="price">$30</span></h5>
+                        <p class="card-text">Slow-cooked pork belly served on a bed of apple slaw with roasted kumara and crispy noodles.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 10 -->
+                <div class="card mb-3">
+                    <img src="images/Menu10_Lamb_L.jpg" class="card-img-top" alt="Lamb with roast vegetables">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">LAMB STEAK <span class="price">$33</span></h5>
+                        <p class="card-text">New Zealand lamb coated in a kawakawa crumb, served with Dijon-mustard-glazed carrots, roasted butternut squash and mushroom jus.</p>
+                    </div>
+                </div>
+
+            
+                <!-- Bootstrap card 11 -->
+                <div class="card mb-3">
+                    <img src="images/Menu11_Venison_L.jpg" class="card-img-top" alt="Venison steaks on a bed of vegetables">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">VENISON <span class="price">$33</span></h5>
+                        <p class="card-text">Venison crusted with Horopito, served with glazed plums, cabbage salad and red wine jus.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <h2>DESERT</h2>
+            
+            <div class="container-fluid d-flex flex-wrap justify-content-around">
+                
+                <!-- Bootstrap card 12 -->
+                <div class="card mb-3">
+                    <img src="images/Menu12_Icecream_L.jpg" class="card-img-top" alt="Mixed berry and vanilla ice cream in a glass bowl">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">KAPITI ICE CREAM <span class="price">$10</span></h5>
+                        <p class="card-text">Check for daily specials.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 13 -->
+                <div class="card mb-3">
+                    <img src="images/Menu13_pudding_L.jpg" class="card-img-top" alt="Golden steamed pudding with a scoop of ice cream">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">STEAMED PUDDING <span class="price">$12</span></h5>
+                        <p class="card-text">Golden-syrup-flavoured steamed pudding, served with vanilla ice cream.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 14 -->
+                <div class="card mb-3">
+                    <img src="images/Menu14_pavlova_L.jpg" class="card-img-top" alt="Single-serve meringues with whipped cream and berries">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">MINI PAVLOVA <span class="price">$16</span></h5>
+                        <p class="card-text">Mini pavlova, served with kawakawa and lemon-infused cream and fresh fruit.</p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 15 -->
+                <div class="card mb-3">
+                    <img src="images/Menu15_banoffeepie_L.jpg" class="card-img-top" alt="A cream pie oozing golden toffee and banana">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">BANOFFEE PIE <span class="price">$16</span></h5>
+                        <p class="card-text">Toffee, fresh bananas and fresh cream.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2>BEVERAGES</h2>
+            
+            <div class="container-fluid d-flex flex-wrap justify-content-around">
+                
+                <!-- Bootstrap card 16 -->
+                <div class="card mb-3">
+                    <img src="images/Menu16_redwine_L.jpg" class="card-img-top" alt="A glass of red wine standing beside the bottle on a garden table">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">RED <span class="price">B/G</span></h5>
+                        <p class="card-text">Terrace Edge Pinot Noir, 2012, Wairarapa <span class="price">53/13</span></p>
+                        <p class="card-text">Altitude Pinot Noir, 2010, Marlborough <span class="price">64/15</span></p>
+                        <p class="card-text">Greystone Pinot Noir, 2012, Wairarapa <span class="price">73/17</span></p>
+                        <p class="card-text">Terrace Edge, Syrah, 2012, Wairarapa <span class="price">53/13</span></p>
+                        <p class="card-text">Altitude Syrah, 2010, Marlborough <span class="price">64/15</span></p>
+                        <p class="card-text">Greystone Syrah, 2012, Wairarapa <span class="price">73/17</span></p>
+                        <p class="card-text">Pegasus Bay Merlot, 2013, Waipara <span class="price">65/14</span></p>
+                        <p class="card-text">Pegasus Bay Pinot Noir, 2013, Waipara <span class="price">110</span></p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 17 -->
+                <div class="card mb-3">
+                    <img src="images/Menu17_whitewine_L.jpg" class="card-img-top" alt="Two glasses of white wine beside the bottle on a garden table">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">WHITE <span class="price">B/G</span></h5>
+                        <p class="card-text">Spade Oak Pinot Gris, 2011, Gisborne <span class="price">40/10</span></p>
+                        <p class="card-text">Maude Pinot Gris, 2017, Otago <span class="price">49.50/11</span></p>
+                        <p class="card-text">Charles Wiffen Chardonnay, 2013, Otago <span class="price">48/11</span></p>
+                        <p class="card-text">Amisfield, Riesling, 2016, Otago <span class="price">53/12</span></p>
+                        <p class="card-text">Lamont Riesling, 2010, Otago <span class="price">57/13</span></p>
+                        <p class="card-text">Elephant Hill Viognier, 2013, Hawke’s Bay <span class="price">55/12</span></p>
+                        <p class="card-text">Folium Sauvignon Blanc, 2011, Marlborough <span class="price">52/11</span></p>
+                        <p class="card-text">Billecart-Salmon Brut Reserve, France <span class="price">120</span></p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 18 -->
+                <div class="card mb-3">
+                    <img src="images/Menu18_beer_L.jpg" class="card-img-top" alt="Single-serve meringues with whipped cream and berries">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">BEER AND CIDER</h5>
+                        <p class="card-text">Garage project range <span class="price">11</span></p>
+                        <p class="card-text">Tuatara range <span class="price">11</span></p>
+                        <p class="card-text">Panhead range <span class="price">10</span></p>
+                        <p class="card-text">Coopers ale <span class="price">10</span></p>
+                        <p class="card-text">Heineken <span class="price">11</span></p>
+                        <p class="card-text">Moa cider <span class="price">10</span></p>
+                        <p class="card-text">Crooked cider <span class="price">10</span></p>
+                    </div>
+                </div>
+
+                <!-- Bootstrap card 19 -->
+                <div class="card mb-3">
+                    <img src="images/Menu19_coffee_L.jpg" class="card-img-top" alt="Single-serve meringues with whipped cream and berries">
+                    <div class="card-body pt-0">
+                        <p class="card-text attribution"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title card-heading">NON-ALCOHOLIC</h5>
+                        <p class="card-text">Mineral water <span class="price">$4.00</span></p>
+                        <p class="card-text">Soft drinks <span class="price">$4.00</span></p>
+                        <p class="card-text">Juice <span class="price">$4.00</span></p>
+                        <p class="card-text">Coffee <span class="price">$4.50</span></p>
+                        <p class="card-text">Tea <span class="price">$3.50</span></p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- SITE FOOTER -->
+        <footer>
+          
+            <!-- bootstrap flex container -->
+            <div class="d-flex footBox">
+
+                <!-- footer navigation -->
+                <nav>
+                    <ul class="footer">
+                        <li><a href="index.html" class="navFooter">Home</a></li>
+                        <li><a href="#" class="navFooter">Menu</a></li>
+                        <li><a href="reservations.html" class="navFooter">Reservations</a></li>
+                        <li><a href="hours.html" class="navFooter">Hours</a></li>
+                        <li><a href="contact.html" class="navFooter">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- open hours for right-hand side of footer -->
+                <p class="ml-auto mt-auto mb-auto footerText">Open evenings 3pm - 9pm<br>Wednesday - Sunday</p>
+            </div>
+
+            <!-- flex container for copyright info at bottom -->
+            <div class="d-flex p-2 copyBar">
+                <p class="m-auto copyR">&copy; Copyright Haukai Restaurant 2024</p>
+            </div>
+      </footer>
+
+        <!-- Bootstrap script files -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>

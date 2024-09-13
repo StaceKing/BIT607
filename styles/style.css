@@ -23,7 +23,9 @@
 #logo2 {
     margin: 1.2rem;
     font-size: 1.375rem;
+    font-weight: 600;
     letter-spacing: .125rem;
+    line-height: 1.2;
 }
 
 .hamburger-icon {
@@ -133,6 +135,12 @@
 footer .copyBar {
     box-shadow: 0 0px 7px rgba(47, 108, 115, .1) inset;
     background-color: rgba(47, 108, 115, .15);
+}
+
+.mainText {
+    text-align: center;
+    padding: 3rem 2rem;
+    font-size:x-large ;
 }
 
 main {

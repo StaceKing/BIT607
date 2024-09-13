@@ -175,8 +175,8 @@ h1, h2, h3, p, a, .closeButton {
     font-family: 'Asap', sans-serif;
 }
 
-ul {
-    list-style-type: none;
+.list-group {
+    margin: 0.35rem;
 }
 
 small {

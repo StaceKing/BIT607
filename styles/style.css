@@ -119,6 +119,11 @@
 
 }
 
+.thisPage {
+    text-decoration: underline;
+    font-weight: 550;
+}
+
 .navbar {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;

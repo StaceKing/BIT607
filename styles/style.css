@@ -185,11 +185,11 @@ small {
     opacity: .8;
 }
 
-.navbar-collapse>ul>li:hover {
+.navbar-collapse>menu>li:hover {
     background-color: rgba(47, 108, 115, .2);
 }
 
-.navbar-collapse>ul>li {
+.navbar-collapse>menu>li {
     background-color: rgb(251, 246, 242);
 }
 

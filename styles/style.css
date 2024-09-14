@@ -263,10 +263,17 @@ small {
 	background-position:center;
 }
 
-/* background image for desktop screens */
-@media (min-width: 500px) {
+/* background image for large desktop screens */
+@media (min-width: 1300px) {
     .background.one {
         background-image: url("/images/restaurant.jpg");
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1300px) {
+    .background.one {
+        background-image: url("/images/restaurant-md.jpg");
         overflow: hidden;
     }
 }

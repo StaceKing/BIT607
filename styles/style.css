@@ -144,7 +144,7 @@ footer .copyBar {
 
 .mainText {
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 1rem 2rem 3rem 2rem;
     font-size:x-large ;
 }
 
@@ -294,10 +294,9 @@ small {
 .floatingText {
 	position: relative;
 	top: 30%;
-	background: rgb(223, 255, 240);
-	background: rgba(223, 255, 240, .8);
+	background: rgba(224, 233, 234, .9);
 	width: 60%;
-	border: 3px solid #A18FD1;
+	box-shadow: 0px 0px 6px 4px rgba(224, 233, 234, .9);
 	margin: auto;
 	padding: 1rem 3rem;
 }
@@ -311,16 +310,17 @@ small {
 .caption {
     float: left;
     position: absolute;
-    left: 41px;
+    left: 25px;
     bottom: -1em;
     font-style: italic;
     line-height: 1.5;
-    background: rgb(223, 255, 240);
-    background: rgba(223, 255, 240, .8);
+    background: rgba(224, 233, 234, .8);
+    padding: 0 .5rem;
+    box-shadow: 0px 0px 5px 4px rgba(224, 233, 234, .9);
 }
 
 
-/* Media query to shrink floating text for smaller screens*/
+/* Media query to adjust floating text for smaller screens*/
 @media (max-width: 500px) {
     
 
@@ -333,8 +333,11 @@ small {
     }
 
     .floatingText {
-        width: 70%;
-        padding: 1rem 2rem;
+        width: 68%;
+        padding: 1rem;
     }
 
+    .background {
+        padding: 20vw 0;
+    }
 }

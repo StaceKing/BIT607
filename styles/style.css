@@ -148,6 +148,16 @@ footer .copyBar {
     font-size:x-large ;
 }
 
+.pageHeading {
+    padding: 5rem;
+    box-shadow: 0 4px 7px rgba(128,98,71,0.1);
+}
+
+.subHeading {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
 main {
     text-align: center;
     margin-bottom: 3em;
@@ -159,8 +169,6 @@ h1 {
     color: #3F575A;
     text-align: center;
     clear: both;
-    padding: 5rem;
-    box-shadow: 0 4px 7px rgba(128,98,71,0.1)
     
 }
 
@@ -197,6 +205,8 @@ small {
     font-style: italic;
     opacity: .8;
 }
+
+
 
 .navbar-collapse>menu>li:hover {
     background-color: rgba(47, 108, 115, .2);
@@ -235,4 +245,66 @@ small {
 .attribution {
     text-align: left;
 
+}
+
+
+
+/* NEW SECTION */
+
+.background {
+	position: relative;
+	right: 5vw;
+	width: calc(100% + 10vw);
+	height: auto;
+	padding: 10vw 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position:center;
+}
+
+/* background image for desktop screens */
+@media (min-width: 500px) {
+    .background.one {
+        background-image: url("/images/restaurant.jpg");
+        overflow: hidden;
+    }
+}
+
+/* background image for mobile screens */
+@media (max-width: 500px) {
+    .background.one {
+        background-image: url("/images/restaurant-sm.jpg");
+        overflow: hidden;
+    }
+}
+
+
+/*Text over large fixed images*/
+.floatingText {
+	position: relative;
+	top: 30%;
+	background: rgb(223, 255, 240);
+	background: rgba(223, 255, 240, .8);
+	width: 60%;
+	border: 3px solid #A18FD1;
+	margin: auto;
+	padding: 1rem 3rem;
+}
+
+.floatingText p {
+	position: relative;
+	z-index: 2;
+}
+
+/* Put the accreditation on an image */
+.caption {
+    float: left;
+    position: absolute;
+    left: 41px;
+    bottom: -1em;
+    font-style: italic;
+    line-height: 1.5;
+    background: rgb(223, 255, 240);
+    background: rgba(223, 255, 240, .8);
 }

@@ -196,7 +196,7 @@ p {
 }
 
 h1, h2, h3, p, a, .closeButton {
-    font-family: 'Asap', sans-serif;
+    font-family: 'Asap', Arial, sans-serif;
 }
 
 .list-group {

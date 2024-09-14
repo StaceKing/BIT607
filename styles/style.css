@@ -144,8 +144,8 @@ footer .copyBar {
 
 .mainText {
     text-align: center;
-    padding: 1rem 2rem 3rem 2rem;
-    font-size:x-large ;
+    padding: 1rem 1rem 3rem 1rem;
+    font-size: x-large;
 }
 
 .pageHeading {
@@ -257,13 +257,13 @@ small {
 .background {
 	position: relative;
 	right: 5vw;
-	width: calc(100% + 10vw);
+	width: calc(100% + 5vw);
 	height: auto;
 	padding: 10vw 0;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position:center;
+	background-position: center;
 }
 
 /* background image for large desktop screens */
@@ -310,7 +310,7 @@ small {
 .caption {
     float: left;
     position: absolute;
-    left: 25px;
+    left: 5vw;
     bottom: -1em;
     font-style: italic;
     line-height: 1.5;
@@ -319,6 +319,82 @@ small {
     box-shadow: 0px 0px 5px 4px rgba(224, 233, 234, .9);
 }
 
+.caption a, .cardCaption a {
+    color:#3F575A;
+}
+
+.cardCaption {
+    font-size: small;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 1.75vw;
+    font-style: italic;
+    line-height: 1.5;
+    background: rgba(224, 233, 234, .8);
+    padding: 0 .5rem;
+    box-shadow: 0px 0px 5px 4px rgba(224, 233, 234, .9);
+}
+
+.bar {
+    width: 100%;
+    height: 10vw;
+    box-shadow: 0 5px 7px rgba(128,98,71,0.5) inset, 0 -5px 7px rgba(128,98,71,0.5) inset;
+    background-image: url("/images/kowhaiwhai.png");
+    background-size: contain;
+}
+
+.lightBar {
+    width: 100%;
+    height: 3vw;
+    background-image: linear-gradient(rgb(128,98,71,.5), rgba(128,98,71,.1), rgba(128,98,71,.5));
+
+}
+
+.indexCard {
+    padding: 0;
+}
+
+.indexCardText {
+    text-align: center;
+    padding: 2rem 0rem;
+    font-size: x-large;
+    position: relative;
+	top: 30%;
+	background: rgba(224, 233, 234, .9);
+	width: 60%;
+	box-shadow: 0px 0px 6px 4px rgba(224, 233, 234, .9);
+	margin: auto;
+}
+
+.cardImage {
+    background-size: cover;
+    height: 25vw;
+    min-height: 230px;
+}
+
+#mapCard {
+    background-image: url("/images/map-thumb.jpg");
+}
+
+#reserveCard {
+    background-image: url("/images/calendar-thumb.jpg");
+}
+
+.indexCard a {
+    color:#806247;
+}
+
+/* media query to adjust size of cards for small screens */
+@media (max-width: 767px) {
+    #mapCard, #reserveCard {
+        height: 50vw;
+    }
+
+    .cardCaption {
+        bottom: 1vw;
+    }
+}
 
 /* Media query to adjust floating text for smaller screens*/
 @media (max-width: 500px) {

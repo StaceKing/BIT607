@@ -153,10 +153,13 @@ footer .copyBar {
     box-shadow: 0 4px 7px rgba(128,98,71,0.1);
 }
 
+/* Smaller heading text used in homepage intro */
 .subHeading {
     font-size: 2rem;
     padding-top: 2rem;
 }
+
+
 
 main {
     text-align: center;
@@ -169,7 +172,7 @@ h1 {
     color: #3F575A;
     text-align: center;
     clear: both;
-    
+    padding: 1em;
 }
 
 h2 {
@@ -314,4 +317,24 @@ small {
     line-height: 1.5;
     background: rgb(223, 255, 240);
     background: rgba(223, 255, 240, .8);
+}
+
+
+/* Media query to shrink floating text for smaller screens*/
+@media (max-width: 500px) {
+    
+
+    h1 {
+        font-size: 2.4rem
+    }
+
+    .subHeading {
+        font-size: 1.7rem;
+    }
+
+    .floatingText {
+        width: 70%;
+        padding: 1rem 2rem;
+    }
+
 }

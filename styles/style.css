@@ -391,6 +391,22 @@ small {
     background-image: url("/images/menu-thumb.jpg");
 }
 
+#appetisers {
+    background-image: url("/images/appet-thumb.jpg");
+}
+
+#mains {
+    background-image: url("/images/main-thumb.jpg");
+}
+
+#desert {
+    background-image: url("/images/desert-thumb.jpg");
+}
+
+#beverages {
+    background-image: url("/images/bev-thumb.jpg");
+}
+
 .indexCard a {
     color:#806247;
 }

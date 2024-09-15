@@ -269,14 +269,14 @@ small {
 /* background image for large desktop screens */
 @media (min-width: 1300px) {
     .background.one {
-        background-image: url("/images/restaurant.jpg");
+        background-image: url("/images/restaurant.webp");
         overflow: hidden;
     }
 }
 
 @media (min-width: 500px) and (max-width: 1300px) {
     .background.one {
-        background-image: url("/images/restaurant-md.jpg");
+        background-image: url("/images/restaurant-md.webp");
         overflow: hidden;
     }
 }
@@ -284,7 +284,7 @@ small {
 /* background image for mobile screens */
 @media (max-width: 500px) {
     .background.one {
-        background-image: url("/images/restaurant-sm.jpg");
+        background-image: url("/images/restaurant-sm.webp");
         overflow: hidden;
     }
 }
@@ -376,35 +376,35 @@ small {
 }
 
 #mapCard {
-    background-image: url("/images/map-thumb.jpg");
+    background-image: url("/images/map-thumb.webp");
 }
 
 #reserveCard {
-    background-image: url("/images/calendar-thumb.jpg");
+    background-image: url("/images/calendar-thumb.webp");
 }
 
 #hoursCard {
-    background-image: url("/images/hours-thumb.jpg");
+    background-image: url("/images/hours-thumb.webp");
 }
 
 #menuCard {
-    background-image: url("/images/menu-thumb.jpg");
+    background-image: url("/images/menu-thumb.webp");
 }
 
 #appetisers {
-    background-image: url("/images/appet-thumb.jpg");
+    background-image: url("/images/appet-thumb.webp");
 }
 
 #mains {
-    background-image: url("/images/main-thumb.jpg");
+    background-image: url("/images/main-thumb.webp");
 }
 
 #desert {
-    background-image: url("/images/desert-thumb.jpg");
+    background-image: url("/images/desert-thumb.webp");
 }
 
 #beverages {
-    background-image: url("/images/bev-thumb.jpg");
+    background-image: url("/images/bev-thumb.webp");
 }
 
 .indexCard a {

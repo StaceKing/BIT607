@@ -260,7 +260,38 @@ small {
     color: #3F575A;
 }
 
+/* CONTACT US PAGE */
 
+.contentBlock {
+    text-align: center;
+    padding: 3rem 2rem
+}
+
+.contentBlock h2 {
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+.contentBlock .mainText {
+    padding: 1em;
+}
+
+.gMap {
+    width:100%;
+    min-height: 400px;
+}
+
+.gForm {
+    padding: 2rem 1rem;
+    height: 65rem;
+    width: 100%;
+    
+}
+
+
+iframe {
+    overflow:hidden;
+}
 
 /* NEW SECTION */
 

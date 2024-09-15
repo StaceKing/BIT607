@@ -239,16 +239,25 @@ small {
     max-width: 400px;
 }
 
-
+/* recolour bootstrap standard with Haukai restaurant's style */
 .card-heading {
     font-weight: 350;
     font-size: 1.2rem;
     color: #3F575A;
 }
 
+/* position image attributions on menu page */
 .attribution {
+    position: relative;
+    left: -1em;
+    top: -0.2em;
     text-align: left;
+    font-size: 0.95em;
+}
 
+/* colour the image attributions for cards */
+.attribution small a {
+    color: #3F575A;
 }
 
 

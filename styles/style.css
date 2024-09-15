@@ -173,6 +173,7 @@ h1 {
     text-align: center;
     clear: both;
     padding: 1em;
+    margin: 0;
 }
 
 h2 {
@@ -334,6 +335,23 @@ small {
     background: rgba(224, 233, 234, .8);
     padding: 0 .5rem;
     box-shadow: 0px 0px 5px 4px rgba(224, 233, 234, .9);
+}
+
+
+/* caption for the smaller thumbnails*/
+.cardCaptionL {
+    position: absolute;
+    font-size: small;
+    font-size: 0.7em; /*have to reduce the font size for the small images*/
+    color: #412b18; /*darker colour to keep it readable*/
+    float: left;
+    left: 0;
+    bottom: -1.3em;
+    font-style: italic;
+    line-height: 1.5;
+    background: rgba(224, 233, 234, .6);
+    padding: 0 .5rem;
+    box-shadow: 0px 0px 5px 1px rgba(224, 233, 234, .9);
 }
 
 .bar {

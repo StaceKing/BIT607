@@ -320,7 +320,7 @@ small {
     box-shadow: 0px 0px 5px 4px rgba(224, 233, 234, .9);
 }
 
-.caption a, .cardCaption a {
+.caption a, .cardCaption a, .cardCaptionL a {
     color:#3F575A;
 }
 
@@ -343,7 +343,6 @@ small {
     position: absolute;
     font-size: small;
     font-size: 0.7em; /*have to reduce the font size for the small images*/
-    color: #412b18; /*darker colour to keep it readable*/
     float: left;
     left: 0;
     bottom: -1.3em;
@@ -353,6 +352,13 @@ small {
     padding: 0 .5rem;
     box-shadow: 0px 0px 5px 1px rgba(224, 233, 234, .9);
 }
+
+/* Link text inside smaller captions */
+.cardCaptionL a {
+    color: #163236; /*darker colour to keep it readable*/
+}
+
+
 
 .bar {
     width: 100%;
@@ -375,6 +381,12 @@ small {
     padding: 0;
 }
 
+/* correct the colour for hyperlink underline effect */
+.indexCard a {
+    color: rgb(128, 98, 71);
+}
+
+
 .indexCardText {
     text-align: center;
     padding: 2rem 0rem;
@@ -387,6 +399,7 @@ small {
 	margin: auto;
 }
 
+/* size and cropping for all image cards on homepage */
 .cardImage {
     background-size: cover;
     height: 25vw;
@@ -425,9 +438,7 @@ small {
     background-image: url("/images/bev-thumb.webp");
 }
 
-.indexCard a {
-    color:#806247;
-}
+
 
 /* media query to adjust size of cards for small screens */
 @media (max-width: 767px) {

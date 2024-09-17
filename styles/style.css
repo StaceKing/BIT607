@@ -283,26 +283,55 @@ small {
     padding: 1em;
 }
 
+/* stop the google map shrinking with a scroll bar */
 .gMap {
     width:100%;
     min-height: 400px;
 }
 
+
+/* stop the google form shrinking with a scroll bar */
 .gForm {
     padding: 2rem 1rem;
     height: 75rem;
     width: 100%;
-    
 }
-
-.test {
-    font-size: x-small;
-    font-weight: lighter;
-}
-
 
 iframe {
     overflow:hidden;
+}
+
+
+/* HOURS PAGE */
+
+#calendarTitle {
+    margin-bottom: 50px;
+}
+
+.weekDay {
+    text-align: center;
+    margin-bottom: 0.35rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.dayStatus {
+    text-align: center;
+}
+
+/* media query to adapt week day from rows to columns */
+@media (max-width: 992px) {
+    .flexBox {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+/* media query to adapt day text size for smaller screens */
+
+.weekDay, .dayStatus {
+    font-size: 2.2vw;
 }
 
 /* NEW SECTION */

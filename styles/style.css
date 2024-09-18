@@ -267,7 +267,7 @@ small {
     color: #3F575A;
 }
 
-/* CONTACT US PAGE */
+/* CONTACT PAGE */
 
 .contentBlock {
     text-align: center;
@@ -317,22 +317,30 @@ iframe {
 
 .dayStatus {
     text-align: center;
+    text-overflow: unset;
 }
 
-/* media query to adapt week day from rows to columns */
+/* media query for responsiveness on smaller screens */
 @media (max-width: 992px) {
+
+    /*adapt week days from side column to top row*/
     .flexBox {
         display: flex;
         justify-content: space-around;
     }
+    /* resize the text responsively */
+    .weekDay, .dayStatus {
+        font-size: 2.5vw; /*font size based on screen width prevents overflow */
+    }
+
+    /*abbreviate the week names to avoid overflow*/
+    .dayEnd {
+        display: none;
+    }
 
 }
 
-/* media query to adapt day text size for smaller screens */
 
-.weekDay, .dayStatus {
-    font-size: 2.2vw;
-}
 
 /* HOMEPAGE */
 

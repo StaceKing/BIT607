@@ -253,7 +253,7 @@ footer .copyBar {
 /* mainText is the paragraph size used in the index page */
 .mainText, .mainTextR {
     text-align: center;
-    padding: 1rem 1rem 3rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     font-size: x-large;
 }
 
@@ -283,7 +283,6 @@ footer .copyBar {
 }
 .mainTextM {
     text-align: center;
-
     font-size: large;
 }
 
@@ -393,6 +392,13 @@ iframe {
 .subHeading {
     font-size: 2rem;
     padding-top: 2rem;
+}
+
+.mainTextH {
+    text-align: center;
+    font-size: large;
+    color:#432d19;
+    padding-bottom: 1em;
 }
 
 /* feature scrolling div with fixed background*/

@@ -471,26 +471,16 @@ iframe {
 }
 
 
-.indexCardText, .indexCardTextL {
+.indexCardText {
     text-align: center;
     padding: 2rem 0rem;
+    font-size: x-large;
     position: relative;
 	top: 30%;
 	background: rgba(224, 233, 234, .9);
 	width: 60%;
 	box-shadow: 0px 0px 6px 4px rgba(224, 233, 234, .9);
 	margin: auto;
-}
-
-/* font style for smaller index page cards */
-.indexCardText {
-        font-size: x-large;
-}
-
-/* font style for larger index page cards */
-.indexCardTextL {
-    font-size: xx-large;
-    font-weight: 500;
 }
 
 /* size and cropping for all image cards on homepage */

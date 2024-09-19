@@ -70,12 +70,15 @@
     padding: 1em;
 }
 
+.navLink {
+    text-decoration: none;
+}
 .navMenu, .staffLink {
     color: #806247;
     text-decoration: none;
 }
 
-.navMenu:hover, .staffLink:hover {
+.navMenu:hover, .navLink:hover, .staffLink:hover {
     color: #A84736;
     text-decoration: none;
 }
@@ -219,11 +222,11 @@ small {
 
 
 
-.navbar-collapse>menu>li:hover {
+.navbar-collapse>menu>li:hover, .navbar-collapse>menu>a>li:hover {
     background-color: rgba(47, 108, 115, .2);
 }
 
-.navbar-collapse>menu>li {
+.navbar-collapse>menu>li, .navbar-collapse>menu>a>li {
     background-color: rgb(251, 246, 242);
 }
 

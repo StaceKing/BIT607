@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-nz">
 
     <head>
 
@@ -36,11 +36,11 @@
                 
                 <!-- menu heading to show for collapsed style menu -->
                 <div class="navbar-toggler navMenu" data-toggle="collapse" data-target=".collapsibleNavbar">
-                    <a class="navMenu navHeader" href="#">&nbsp;<span class="hamburger-icon">&#9776;</span>&nbsp;&nbsp;&nbsp;Menu</a>
+                    <a class="navMenu navHeader" aria-label="Open the site Navigation Menu" href="#">&nbsp;<span class="hamburger-icon">&#9776;</span>&nbsp;&nbsp;&nbsp;Menu</a>
                 </div>
 
                 <!-- Close button to toggle the menu -->
-                <button type="button" class="navbar-toggler collapse closeButton collapsibleNavbar" data-toggle="collapse" data-target=".collapsibleNavbar" aria-label="Close">X</button>
+                <button aria-label="Close the navigation menu" type="button" class="navbar-toggler collapse closeButton collapsibleNavbar" data-toggle="collapse" data-target=".collapsibleNavbar" aria-label="Close">X</button>
 
                 <!-- bootstrap collapsable menu portion -->
                 <div class="collapse navbar-collapse collapsibleNavbar">
@@ -83,7 +83,7 @@
                 </div>
 
                 <!-- underline image for logo header -->
-                <img class="bannerLine" src="images/bannerLine.png" width="320" height="22">
+                <img class="bannerLine" alt="" src="images/bannerLine.png" width="320" height="22"> <!--blank alt attribute to allow readers to ignore the decorative bar-->
             </div>
 
         </header>

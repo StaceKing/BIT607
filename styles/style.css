@@ -6,190 +6,7 @@
 */
 
 
-.list-group-item, .navbar-toggler {
-    border: 0;
-}
-
-.list-group-item:hover {
-    background: lightgray;
-}
-
-#logo1 {
-    font-size: 3.67rem;
-    font-weight: 300;
-    font-variation-settings: "wdth" 90;
-    line-height: 1.5;
-    margin: 0.8rem;
-    letter-spacing: .25rem;
-    color: #3F575A;
-}
-
-
-#logo2 {
-    margin: 1.2rem;
-    font-size: 1.375rem;
-    font-weight: 600;
-    letter-spacing: .125rem;
-    line-height: 1.2;
-}
-
-.hamburger-icon {
-    font-size: 1.25em;
-    font-weight: 200;
-}
-
-.closeButton {
-    font-size: 1.75rem;
-    font-weight: 400;
-    font-variation-settings: "wdth" 115;
-    color: #806247;
-}
-
-.closeButton:hover {
-    color: #A84736;
-}
-
-.bannerLine {
-    width: 20rem;
-}
-
-.banner {
-    padding-top: 4.5rem;
-    box-shadow: 0 4px 7px rgba(128,98,71,0.25)
-}
-
-.headerAddress {
-    line-height: 2em;
-    margin: auto;
-}
-
-
-
-
-.navbar-toggler {
-    margin: 0.5em;
-}
-
-/* stop the nav links from underlining*/
-.navLink {
-    text-decoration: none;
-}
-
-/* items inside the menu*/
-.navMenu {
-    padding: 1em;
-}
-
-.navMenu, .staffLink {
-    color: #806247;
-    text-decoration: none;
-}
-
-/*menu opening button */
-.navOpen {
-    margin: 0;
-    padding: 1rem;
-}
-
-/* hover effect for menu opening button */
-.navOpen:hover {
-    cursor: pointer;
-    font-weight: 600;
-}
-
-/* hover effect for menu items */
-.navMenu:hover, .navLink:hover, .staffLink:hover {
-    color: #A84736;
-    text-decoration: none;
-}
-
-.navFooter {
-    color: #3F575A;
-    font-size: 1.15rem;
-    text-decoration: none;
-    line-height: 2.25em;
-    font-style: italic;
-}
-
-.navFooter:hover {
-    color: #1f3234;
-}
-
-.footer {
-    float: left;
-}
-
-.staffLink:hover, .navFooter:hover {
-    text-decoration: underline;
-}
-
-.staffLink, .headerAddress, .footerText {
-    float: right;
-    text-align: right;
-    margin-right: 1.5em;
-    line-height: 2em;
-    }
-
-.copyR {
-    font-style: italic;
-    font-size: 0.9rem;
-}
-
-.navMenu {
-    font-size: 1.4rem;
-    padding: 0.5rem;
-    letter-spacing: 0.05rem;
-
-}
-
-.thisPage {
-    text-decoration: underline;
-    font-weight: 550;
-}
-
-.navbar {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: rgb(251, 246, 242);
-    box-shadow: 0 4px 7px rgba(128,98,71,0.25)
-}
-
-.footBox {
-    box-shadow: 0 -4px 7px rgba(47, 108, 115, .2), 0 4px 7px rgba(47, 108, 115, .2) inset;;
-    background-color: rgba(47, 108, 115, .15);
-    padding-top: 2em;
-}
-
-
-footer .copyBar {
-    box-shadow: 0 0px 7px rgba(47, 108, 115, .1) inset;
-    background-color: rgba(47, 108, 115, .15);
-}
-
-.formFooter .f6 .branding21 .isAccessible {
-    opacity: 0;
-    position: relative;
-    top: 50px;
-}
-
-.mainText {
-    text-align: center;
-    padding: 1rem 1rem 3rem 1rem;
-    font-size: x-large;
-}
-
-.pageHeading {
-    padding: 5rem;
-    box-shadow: 0 4px 7px rgba(128,98,71,0.1);
-}
-
-/* Smaller heading text used in homepage intro */
-.subHeading {
-    font-size: 2rem;
-    padding-top: 2rem;
-}
-
-
+/* --- UNIVERSAL STYLES FOR ALL PAGES --- */
 
 main {
     text-align: center;
@@ -230,14 +47,141 @@ h1, h2, h3, p, a, .closeButton {
     font-family: 'Asap', Arial, sans-serif;
 }
 
-.list-group {
-    margin: 0.35rem;
-}
-
 small {
     font-size: 0.8em;
     font-style: italic;
     opacity: .8;
+}
+
+/* HEADER / BANNER */
+
+#logo1 {
+    font-size: 3.67rem;
+    font-weight: 300;
+    font-variation-settings: "wdth" 90;
+    line-height: 1.5;
+    margin: 0.8rem;
+    letter-spacing: .25rem;
+    color: #3F575A;
+}
+
+
+#logo2 {
+    margin: 1.2rem;
+    font-size: 1.375rem;
+    font-weight: 600;
+    letter-spacing: .125rem;
+    line-height: 1.2;
+}
+
+.bannerLine {
+    width: 20rem;
+}
+
+.banner {
+    padding-top: 4.5rem;
+    box-shadow: 0 4px 7px rgba(128,98,71,0.25)
+}
+
+.headerAddress {
+    line-height: 2em;
+    margin: auto;
+}
+
+/* NAVIGATION MENU*/
+
+.list-group-item, .navbar-toggler {
+    border: 0;
+}
+
+.list-group-item:hover {
+    background: lightgray;
+}
+
+.hamburger-icon {
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+.closeButton {
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-variation-settings: "wdth" 115;
+    color: #806247;
+}
+
+.closeButton:hover {
+    color: #A84736;
+}
+
+/* opening button for menu*/
+.navbar-toggler {
+    margin: 0.5em;
+}
+
+/* stop the nav links from underlining*/
+.navLink {
+    text-decoration: none;
+}
+
+/* items inside the menu*/
+.navMenu {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    letter-spacing: 0.05rem;
+    padding: 1em;
+}
+
+.navMenu, .staffLink {
+    color: #806247;
+    text-decoration: none;
+}
+
+/*menu opening button */
+.navOpen {
+    margin: 0;
+    padding: 1rem;
+}
+
+/* hover effect for menu opening button */
+.navOpen:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* hover effect for menu items */
+.navMenu:hover, .navLink:hover, .staffLink:hover {
+    color: #A84736;
+    text-decoration: none;
+}
+
+.staffLink:hover, .navFooter:hover {
+    text-decoration: underline;
+}
+
+/* smaller text for select areas*/
+.staffLink, .headerAddress, .footerText {
+    float: right;
+    text-align: right;
+    margin-right: 1.5em;
+    line-height: 2em;
+}
+
+/* Highlight for navigation on current page*/
+.thisPage {
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(251, 246, 242);
+    box-shadow: 0 4px 7px rgba(128,98,71,0.25)
+}
+
+.list-group {
+    margin: 0.35rem;
 }
 
 .navOpen:hover, .navbar-collapse>menu>li:hover, .navbar-collapse>menu>a>li:hover {
@@ -248,19 +192,78 @@ small {
     background-color: rgb(251, 246, 242);
 }
 
-#littleLogo {
-    display: none;
-    font-size: 1rem;
+
+/* FOOTER AREA */
+.footBox {
+    box-shadow: 0 -4px 7px rgba(47, 108, 115, .2), 0 4px 7px rgba(47, 108, 115, .2) inset;;
+    background-color: rgba(47, 108, 115, .15);
+    padding-top: 2em;
+}
+
+footer .copyBar {
+    box-shadow: 0 0px 7px rgba(47, 108, 115, .1) inset;
+    background-color: rgba(47, 108, 115, .15);
+}
+.navFooter {
     color: #3F575A;
+    font-size: 1.15rem;
+    text-decoration: none;
+    line-height: 2.25em;
+    font-style: italic;
 }
-#topLL {
-    line-height: 2rem;
+
+.navFooter:hover {
+    color: #1f3234;
 }
-#subLL {
-    font-size: 0.75rem;
-    color: #806247;
-    line-height: 1.75rem;
+
+.footer {
+    float: left;
 }
+
+.copyR {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* DIVIDING BARS */
+
+/* the Kowhaiwhai feature bar */
+.bar {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 10px 15px rgba(128,98,71,0.7) inset, 0 -10px 15px rgba(128,98,71,0.7) inset;
+    background-image: url("../images/kowhaiwhai.png");
+    background-size: contain;
+}
+
+/* lighter sepia bar for where the kowhaiwhai is to heavy */
+.lightBar {
+    width: 100%;
+    height: 3vw;
+    background-image: linear-gradient(rgb(128,98,71,.5), rgba(128,98,71,.1), rgba(128,98,71,.5));
+
+}
+
+/* HEADINGS AND TEXT */
+.pageHeading {
+    padding: 5rem;
+    box-shadow: 0 4px 7px rgba(128,98,71,0.1);
+}
+
+/* mainText is the paragraph size used in the index page */
+.mainText, .mainTextR {
+    text-align: center;
+    padding: 1rem 1rem 3rem 1rem;
+    font-size: x-large;
+}
+
+/* RESERVATIONS PAGE */
+
+/* variation of the main text for the Resrvations page */
+.mainTextR {
+    padding-top: 3rem;
+}
+
 
 /* MENU PAGE */
 
@@ -365,12 +368,16 @@ iframe {
     .dayEnd {
         display: none;
     }
-
 }
 
 
-
 /* HOMEPAGE */
+
+/* Smaller heading text used in homepage intro */
+.subHeading {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
 
 /* feature scrolling div with fixed background*/
 .background {
@@ -431,6 +438,7 @@ iframe {
     box-shadow: 0px 0px 5px 4px rgba(224, 233, 234, .9);
 }
 
+/* Captions for card image accreditation */
 .caption a, .cardCaption a, .cardCaptionL a {
     color:#3F575A;
 }
@@ -472,23 +480,6 @@ iframe {
 
 
 
-.bar {
-    width: 100%;
-    height: 60px;
-    box-shadow: 0 10px 15px rgba(128,98,71,0.7) inset, 0 -10px 15px rgba(128,98,71,0.7) inset;
-    background-image: url("../images/kowhaiwhai.png");
-    background-size: contain;
-}
-
-.lightBar {
-    width: 100%;
-    height: 3vw;
-    background-image: linear-gradient(rgb(128,98,71,.5), rgba(128,98,71,.1), rgba(128,98,71,.5));
-
-}
-
-
-
 .indexCard {
     padding: 0;
 }
@@ -518,6 +509,7 @@ iframe {
     min-height: 230px;
 }
 
+/* All homepage image cards */
 #mapCard {
     background-image: url("../images/map-thumb.webp");
 }

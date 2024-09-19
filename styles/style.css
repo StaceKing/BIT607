@@ -277,6 +277,10 @@ footer .copyBar {
     padding-top: 2em;
     font-size: large;
 }
+.mainTextMS {
+    color: #806247;
+    font-style: italic;
+}
 .mainTextM {
     text-align: center;
 

@@ -58,26 +58,41 @@
     margin: auto;
 }
 
-.price {
-    color: #A84736;
-}
+
+
 
 .navbar-toggler {
     margin: 0.5em;
 }
 
+/* stop the nav links from underlining*/
+.navLink {
+    text-decoration: none;
+}
+
+/* items inside the menu*/
 .navMenu {
     padding: 1em;
 }
 
-.navLink {
-    text-decoration: none;
-}
 .navMenu, .staffLink {
     color: #806247;
     text-decoration: none;
 }
 
+/*menu opening button */
+.navOpen {
+    margin: 0;
+    padding: 1rem;
+}
+
+/* hover effect for menu opening button */
+.navOpen:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* hover effect for menu items */
 .navMenu:hover, .navLink:hover, .staffLink:hover {
     color: #A84736;
     text-decoration: none;
@@ -220,9 +235,7 @@ small {
     opacity: .8;
 }
 
-
-
-.navbar-collapse>menu>li:hover, .navbar-collapse>menu>a>li:hover {
+.navOpen:hover, .navbar-collapse>menu>li:hover, .navbar-collapse>menu>a>li:hover {
     background-color: rgba(47, 108, 115, .2);
 }
 
@@ -242,6 +255,13 @@ small {
     font-size: 0.75rem;
     color: #806247;
     line-height: 1.75rem;
+}
+
+/* MENU PAGE */
+
+/* style for prices in menu cards */
+.price {
+    color: #A84736;
 }
 
 /* modifying the Bootstrap card class */

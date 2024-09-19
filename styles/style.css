@@ -272,6 +272,17 @@ footer .copyBar {
     color: #A84736;
 }
 
+.mainTextM1 {
+    text-align: center;
+    padding-top: 2em;
+    font-size: large;
+}
+.mainTextM {
+    text-align: center;
+
+    font-size: large;
+}
+
 /* modifying the Bootstrap card class */
 .card {
     max-width: 400px;

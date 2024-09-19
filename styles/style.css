@@ -491,19 +491,19 @@ iframe {
 }
 
 #mapCard {
-    background-image: url("images/map-thumb.webp");
+    background-image: url("/images/map-thumb.webp");
 }
 
 #reserveCard {
-    background-image: url("images/calendar-thumb.webp");
+    background-image: url("/images/calendar-thumb.webp");
 }
 
 #hoursCard {
-    background-image: url("images/hours-thumb.webp");
+    background-image: url("/images/hours-thumb.webp");
 }
 
 #menuCard {
-    background-image: url("images/menu-thumb.webp");
+    background-image: url("/images/menu-thumb.webp");
 }
 
 #appetisers {

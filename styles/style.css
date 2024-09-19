@@ -360,7 +360,7 @@ iframe {
 /* background image for large desktop screens */
 @media (min-width: 500px) {
     .background.one {
-        background-image: url("/images/restaurant.png");
+        background-image: url("../images/restaurant.png");
         overflow: hidden;
     }
 }
@@ -368,7 +368,7 @@ iframe {
 /* background image for mobile screens */
 @media (max-width: 500px) {
     .background.one {
-        background-image: url("/images/restaurant-sm.png");
+        background-image: url("../images/restaurant-sm.png");
         overflow: hidden;
     }
 }

@@ -94,9 +94,13 @@ small {
     border: 0;
 }
 
-.list-group-item:hover {
+
+/* may not need this code */
+.list-group-item:hover, .staffLink:hover {
     background: lightgray;
 }
+/**/
+
 
 .hamburger-icon {
     font-size: 1.25em;
@@ -137,6 +141,15 @@ small {
     text-decoration: none;
 }
 
+.staffLink {
+    padding: 1rem 2.5rem;
+    border: 0;
+    float: right;
+    text-align: right;
+    line-height: 2em;
+}
+
+
 /*menu opening button */
 .navOpen {
     margin: 0;
@@ -160,7 +173,7 @@ small {
 }
 
 /* smaller text for select areas*/
-.staffLink, .headerAddress, .footerText {
+.headerAddress, .footerText {
     float: right;
     text-align: right;
     margin-right: 1.5em;
@@ -184,7 +197,10 @@ small {
     margin: 0.35rem;
 }
 
-.navOpen:hover, .navbar-collapse>menu>li:hover, .navbar-collapse>menu>a>li:hover {
+
+
+
+.navOpen:hover, .navbar-collapse>menu>li:hover, .navbar-collapse>menu>a>li:hover, .staffLink:hover {
     background-color: rgba(47, 108, 115, .2);
 }
 

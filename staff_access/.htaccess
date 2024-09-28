@@ -1,4 +1,4 @@
-AuthName "Staff only: enter name and password"
-AuthUserFile ../../.htpasswd
 AuthType Basic
+AuthName "Restricted access"
+AuthUserFile ".htpasswd"
 require valid-user

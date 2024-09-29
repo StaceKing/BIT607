@@ -274,15 +274,104 @@ footer .copyBar {
 
 /* -- SECTIONS FOR SPECIFIC HTML PAGES -- */
 
+
+
 /* STAFF ONLY PAGE (NEW) */
+
+/* -Text Formating- */
 
 .staffHeading {
     padding: 0 1rem;
     text-align: center;
 }
 
+/* Name of staff member is a small heading */
+.staffName {
+    text-align: center;
+    margin: 1rem;
+    font-weight: 600;
+}
 
 
+/* Owner/manager tags */
+small.staffRole {
+    text-align: center;
+    padding: 0 0em 1em;
+    display: block;
+    font-weight: 500;
+}
+
+/* prperty names */
+.property {
+    font-weight: 700;
+    margin-bottom: 0.25em;
+}
+
+.value {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.weekDay.roster {
+    padding-bottom: 0.4em;
+    margin-top: 0.7em;
+    width: 100%;
+}
+
+.underline {
+    border-bottom: 1px solid #3F575A;
+}
+
+
+/* phone number on staff contact cards */
+.staffPhone {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+
+/* - Flexbox Card display - */
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2rem;
+    width:100%;
+}
+
+.flexRow.noWrap {
+    flex-wrap: nowrap;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0.5rem;
+    border:1px solid #3F575A;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.weekly {
+    flex-grow: 1;
+    width: 150px;
+}
+
+.date {
+    text-align: center;
+}
+
+.flexCard {
+    flex-grow: 1;
+    padding: 2rem;
+    margin: 2rem;
+    width: 300px;
+    border: 1px solid #3F575A;
+    border-radius: 10px;
+}
 
 /* RESERVATIONS PAGE */
 

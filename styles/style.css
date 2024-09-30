@@ -280,6 +280,10 @@ footer .copyBar {
 
 /* -Text Formating- */
 
+.rosterHeading {
+    text-align: center;
+}
+
 .staffHeading {
     padding: 0 1rem;
     text-align: center;
@@ -312,13 +316,13 @@ small.staffRole {
     font-style: italic;
 }
 
-.weekDay.roster {
+.weekDayR {
+    text-align: center;
+    margin-bottom: 0.35rem;
     padding-bottom: 0.4em;
     margin-top: 0.7em;
     width: 100%;
-}
-
-.underline {
+    font-weight: bold;
     border-bottom: 1px solid #3F575A;
 }
 
@@ -341,27 +345,67 @@ small.staffRole {
     width:100%;
 }
 
+/* flexbox for schedule calendar row */
 .flexRow.noWrap {
     flex-wrap: nowrap;
+    max-width: 90vw;
+    margin: auto;
+    padding: 0;
+    margin-top: 4rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+
+.flexRowR {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2rem;
+    width:100%;
 }
 
 .flexColumn {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin: 0.5rem;
-    border:1px solid #3F575A;
-    border-radius: 10px;
     align-items:center;
+    border:1px solid #3F575A;
+    /*border-radius: 10px;
+    margin: 0.5rem;*/   
 }
+
+.dayCell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 7.5rem;
+    border-bottom: 1px solid #3F575A;
+
+}
+
+.weekDay, .dayStatus {
+    font-size: 2.5vw; /*font size based on screen width prevents overflow */
+}
+
 
 .weekly {
     flex-grow: 1;
-    width: 150px;
+    min-width: 240px;
+}
+
+.empty {
+    min-width: 120px;
 }
 
 .date {
     text-align: center;
+    font-weight: bold;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
 }
 
 .flexCard {

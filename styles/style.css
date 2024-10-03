@@ -141,7 +141,7 @@ small {
 /* remove padding from submenu on large screen to prevent wrap overflow*/
 @media  (min-width: 992px) {
     .subMenu {
-        padding: 0 1em;
+        padding: 0em 1.436em;
     }
 }
 

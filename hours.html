@@ -61,17 +61,21 @@
                             <a class="navMenu" href="index.html">Home</a>
                         </li>
 
-                        <li class="list-group-item nav-item">
-                            <a class="navMenu" href="menu.html">Menu</a>
-                            <!-- toggle button for dropdown submenu-->
-                            <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".menuToggle"></span>
-                        </li>
+                        <li class="btn-group list-group-item nav-item">
+                            <div class="subMenuBase">
+                                <a class="navMenu" href="menu.html">Menu</a>
+                                <!-- toggle button for dropdown submenu-->
+                                <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".menuToggle"></span>
+                            </div>
                         
-                        <!-- submenu drop-down list -->
-                        <li class="collapse navbar-collapse menuToggle"><a class="subMenu" href="menu.html#app-A">Appetisers</a></li>
-                        <li class="collapse navbar-collapse menuToggle"><a class="subMenu" href="menu.html#main-A">Main</a></li>
-                        <li class="collapse navbar-collapse menuToggle"><a class="subMenu" href="menu.html#des-A">Desert</a></li>
-                        <li class="collapse navbar-collapse menuToggle"><a class="subMenu" href="menu.html#bev-A">Beverages</a></li>
+                            <!-- submenu drop-down list -->
+                            <ul class="collapse dropdown-menu menuToggle">
+                                <li class="subMenuBkgd"><a class="subMenu" href="menu.html#app-A">Appetisers</a></li>
+                                <li class="subMenuBkgd"><a class="subMenu" href="menu.html#main-A">Main</a></li>
+                                <li class="subMenuBkgd"><a class="subMenu" href="menu.html#des-A">Desert</a></li>
+                                <li class="subMenuBkgd"><a class="subMenu" href="menu.html#bev-A">Beverages</a></li>
+                            </ul>
+                        </li>
 
 
                         <li class="list-group-item nav-item">
@@ -80,16 +84,21 @@
                         <li class="list-group-item nav-item">
                             <a class="navMenu thisPage" href="#">Hours</a>
                         </li>
-                        <li class="list-group-item nav-item">
-                            <a class="navMenu" href="contact.html">Contact</a>
-                            <!-- toggle button for dropdown submenu-->
-                            <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".contactToggle"></span>
-                        </li>
+
+                        <li class="btn-group list-group-item nav-item">
+                            <div class="subMenuBase">
+                                <a class="navMenu" href="contact.html">Contact</a>
+                                <!-- toggle button for dropdown submenu-->
+                                <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".contactToggle"></span>
+                            </div>
                         
-                        <!-- submenu drop-down list -->
-                        <li class="collapse navbar-collapse contactToggle"><a class="subMenu" href="contact.html#det-A">Details</a></li>
-                        <li class="collapse navbar-collapse contactToggle"><a class="subMenu" href="contact.html#map-A">Map</a></li>
-                        <li class="collapse navbar-collapse contactToggle"><a class="subMenu" href="contact.html#form-A">Contact Form</a></li>
+                            <!-- submenu drop-down list -->
+                            <ul class="collapse dropdown-menu contactToggle">
+                                <li class="subMenuBkgd"><a class="subMenu" href="contact.html#det-A">Details</a></li>
+                                <li class="subMenuBkgd"><a class="subMenu" href="contact.html#map-A">Map</a></li>
+                                <li class="subMenuBkgd"><a class="subMenu" href="contact.html#form-A">Contact Form</a></li>
+                            </ul>
+                        </li>
 
                     </menu>
                     <!-- separate link to staff pages -->

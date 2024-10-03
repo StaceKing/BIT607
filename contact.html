@@ -64,14 +64,14 @@
                         <li class="list-group-item nav-item">
                             <a class="navMenu" href="menu.html">Menu</a>
                             <!-- toggle button for dropdown submenu-->
-                            <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".subMenu"></span>
+                            <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".menuToggle"></span>
                         </li>
                         
                         <!-- submenu drop-down list -->
-                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#app-A">Appetisers</a></li>
-                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#main-A">Main</a></li>
-                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#des-A">Desert</a></li>
-                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#bev-A">Beverages</a></li>
+                        <li class="collapse navbar-collapse menuToggle"><a class="subMenu" href="menu.html#app-A">Appetisers</a></li>
+                        <li class="collapse navbar-collapse menuToggle"><a class="subMenu" href="menu.html#main-A">Main</a></li>
+                        <li class="collapse navbar-collapse menuToggle"><a class="subMenu" href="menu.html#des-A">Desert</a></li>
+                        <li class="collapse navbar-collapse menuToggle"><a class="subMenu" href="menu.html#bev-A">Beverages</a></li>
 
                         <li class="list-group-item nav-item">
                             <a class="navMenu" href="reservations.html">Reservations</a>
@@ -81,7 +81,15 @@
                         </li>
                         <li class="list-group-item nav-item">
                             <a class="navMenu thisPage" href="#">Contact</a>
+                            <!-- toggle button for dropdown submenu-->
+                            <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".contactToggle"></span>
                         </li>
+                        
+                        <!-- submenu drop-down list -->
+                        <li class="collapse navbar-collapse contactToggle"><a class="subMenu" href="contact.html#det-A">Details</a></li>
+                        <li class="collapse navbar-collapse contactToggle"><a class="subMenu" href="contact.html#map-A">Map</a></li>
+                        <li class="collapse navbar-collapse contactToggle"><a class="subMenu" href="contact.html#form-A">Contact Form</a></li>
+
                     </menu>
                     <!-- separate link to staff pages -->
                     <a class="staffLink ml-auto nav-item" href="staff_access/staff.html">Staff login</a>
@@ -115,7 +123,7 @@
         <!-- KOWHAIWHAI BAR GRAPHICS -->
         <!-- Hamilton, A. (1896). Maori Rafter Pattern 'Patiki'.
               Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Maori-rafter10.svg -->
-		<div class="bar"></div>
+		<div id="det-A" class="bar"></div>
         
         <!-- flex container for address and map-->
         <div class="d-flex flex-wrap">
@@ -124,7 +132,7 @@
             <div class="contentBlock col-md-6">
                 <p class="mainText">1 Island Street<br>Kerikeri<br>Bay of Islands</p>
                 <h2>Phone:</h2>
-                <p class="mainText">09 401 4019</p>
+                <p id="map-A" class="mainText">09 401 4019</p>
             </div>
 
             <!-- Google maps frame -->
@@ -137,7 +145,7 @@
         <!-- KOWHAIWHAI BAR GRAPHICS -->
         <!-- Hamilton, A. (1896). Maori Rafter Pattern 'Patiki'.
               Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Maori-rafter10.svg -->
-		<div class="bar"></div>
+		<div id="form-A" class="bar"></div>
         
         <div class="gForm">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScikM6aLgRtxBNTVIijKICytcLZ-RQvSILKhFmRPO1Nwpl15w/viewform?embedded=true" 

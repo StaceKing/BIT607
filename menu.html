@@ -60,9 +60,20 @@
                         <li class="list-group-item nav-item">
                             <a class="navMenu" href="index.html">Home</a>
                         </li>
+
                         <li class="list-group-item nav-item">
                             <a class="navMenu thisPage" href="#">Menu</a>
+                            <!-- toggle button for dropdown submenu-->
+                            <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".subMenu"></span>
                         </li>
+                        
+                        <!-- submenu drop-down list -->
+                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#app-A">Appetisers</a></li>
+                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#main-A">Main</a></li>
+                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#des-A">Desert</a></li>
+                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#bev-A">Beverages</a></li>
+
+
                         <li class="list-group-item nav-item">
                             <a class="navMenu" href="reservations.html">Reservations</a>
                         </li>
@@ -113,7 +124,7 @@
             <p class="mainTextM">Hei oranga mo o matou tinana<br>(For the wellbeing of our bodies)</p>
             <p class="mainTextM">Whangaia o matou wairua<br>(Feed our spirits)</p>
             <p class="mainTextM">Amene<br>(Amen)</p>
-            <a class="mainTextMS" href="https://waimaramamaori.co.nz/maori-prayer-for-food/">Alycia Gulgowski, 2024. "A Feast for the Soul: Exploring the Tradition of Maori Prayer for Food"</a>
+            <a id="app-A" class="mainTextMS" href="https://waimaramamaori.co.nz/maori-prayer-for-food/">Alycia Gulgowski, 2024. "A Feast for the Soul: Exploring the Tradition of Maori Prayer for Food"</a>
 
             <h2>APPETISERS</h2>
             
@@ -175,7 +186,7 @@
             <!-- KOWHAIWHAI BAR GRAPHICS -->
             <!-- Hamilton, A. (1896). Maori Rafter Pattern 'Patiki'.
                 Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Maori-rafter10.svg -->
-                <div class="bar"></div>
+                <div id="main-A" class="bar"></div>
             <!-- anchor  target for 'Main' links -->
 
             <h2>MAIN</h2>
@@ -249,7 +260,7 @@
             <!-- KOWHAIWHAI BAR GRAPHICS -->
             <!-- Hamilton, A. (1896). Maori Rafter Pattern 'Patiki'.
                 Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Maori-rafter10.svg -->
-                <div class="bar"></div>
+                <div id="des-A" class="bar"></div>
             <!-- anchor  target for 'Desert' links -->
 
             <h2>DESERT</h2>
@@ -301,7 +312,7 @@
             <!-- KOWHAIWHAI BAR GRAPHICS -->
             <!-- Hamilton, A. (1896). Maori Rafter Pattern 'Patiki'.
                 Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Maori-rafter10.svg -->
-            <div class="bar"></div>
+            <div id="bev-A" class="bar"></div>
 
 
             <!-- anchor  target for 'Beverages' links -->

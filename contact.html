@@ -60,9 +60,19 @@
                         <li class="list-group-item nav-item">
                             <a class="navMenu" href="index.html">Home</a>
                         </li>
+                        
                         <li class="list-group-item nav-item">
                             <a class="navMenu" href="menu.html">Menu</a>
+                            <!-- toggle button for dropdown submenu-->
+                            <span class="navMenu dropdown-toggle" role="button" data-toggle="collapse" data-target=".subMenu"></span>
                         </li>
+                        
+                        <!-- submenu drop-down list -->
+                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#app-A">Appetisers</a></li>
+                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#main-A">Main</a></li>
+                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#des-A">Desert</a></li>
+                        <li class="collapse navbar-collapse subMenu"><a class="subMenu" href="menu.html#bev-A">Beverages</a></li>
+
                         <li class="list-group-item nav-item">
                             <a class="navMenu" href="reservations.html">Reservations</a>
                         </li>

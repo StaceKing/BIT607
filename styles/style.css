@@ -135,6 +135,14 @@ small {
     padding: 1em;
 }
 
+/*sub-menu styles*/
+.subMenu {
+    color: #806247;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    padding: 0em 1.5em;
+}
+
 .navMenu, .staffLink {
     color: #806247;
     text-decoration: none;
@@ -161,7 +169,7 @@ small {
 }
 
 /* hover effect for menu items */
-.navMenu:hover, .navLink:hover, .staffLink:hover {
+.navMenu:hover, .navLink:hover, .staffLink:hover, .subMenu:hover {
     color: #A84736;
     text-decoration: none;
 }

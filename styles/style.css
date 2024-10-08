@@ -789,3 +789,16 @@ iframe {
         padding: 20vw 0;
     }
 }
+
+/* PRIVACY PAGE */
+
+.container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.indent {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
